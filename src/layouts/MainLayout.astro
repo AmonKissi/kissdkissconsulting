@@ -28,15 +28,15 @@ We set the language of the page to English and add classes for scrollbar and scr
     <!-- Define the title of the page -->
     <title>{title}</title>
     <script is:inline>
-      // Script to handle dark mode. It will check if the theme is stored in localStorage or if dark theme is preferred by system settings
+      // Script to handle theme preference. It will prioritize light mode unless dark mode is explicitly set in localStorage
       if (
-        localStorage.getItem("hs_theme") === "dark" ||
-        (!("hs_theme" in localStorage) &&
-          window.matchMedia("(prefers-color-scheme: dark)").matches)
+        localStorage.getItem("hs_theme") === "light" ||
+        (!localStorage.getItem("hs_theme") &&
+          !window.matchMedia("(prefers-color-scheme: light)").matches)
       ) {
-        document.documentElement.classList.add("dark");
+        document.documentElement.classList.add("light");
       } else {
-        document.documentElement.classList.remove("dark");
+        document.documentElement.classList.remove("light");
       }
     </script>
     <script>
