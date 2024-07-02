@@ -1,4 +1,4 @@
-import ogImageSrc from '@images/social.png';
+import ogImageSrc from '@images/banner.png';
 
 export const SITE = {
   title: "Kiss D'Kiss",
