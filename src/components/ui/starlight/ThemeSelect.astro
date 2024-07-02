@@ -96,7 +96,7 @@
     const storedTheme = localStorage.getItem("starlight-theme") as Theme | null;
     const theme: Theme =
       storedTheme ||
-      (window.matchMedia("(prefers-color-scheme: dark)").matches
+      (window.matchMedia("(prefers-color-scheme: light)").matches
         ? "dark"
         : "light");
     setTheme(theme);
