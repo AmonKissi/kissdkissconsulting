@@ -1,5 +1,4 @@
 ---
-// Importing necessary components
 import MainLayout from "@/layouts/MainLayout.astro";
 import PrimaryCTA from "@components/ui/buttons/PrimaryCTA.astro";
 import CardSmall from "@components/ui/cards/CardSmall.astro";
@@ -11,6 +10,10 @@ import TestimonialsSectionAlt from "@components/sections/testimonials/Testimonia
 import { getCollection } from "astro:content";
 import type { CollectionEntry } from "astro:content";
 import { SITE } from "@data/constants";
+
+import avatar1 from "@images/reviews/1.png";
+import avatar2 from "@images/reviews/2.png";
+import avatar5 from "@images/reviews/5.png";
 
 // Fetching all the product related content and sorting it by main.id
 const product: CollectionEntry<"products">[] = (
@@ -33,8 +36,7 @@ const testimonials = [
       " \"Kiss D'Kiss was instrumental in helping me achieve my dream of studying at the University of North Texas. From visa assistance to finding accommodation, they guided me every step of the way. Mr. Kissi's personalized support made the entire process stress-free. I couldn't have done it without their help!\" ",
     author: "Aicha K.",
     role: "UNT Student",
-    avatarSrc:
-      "https://i.postimg.cc/2yYMzMhr/2.png",
+    avatarSrc: avatar2.src,
     avatarAlt: "Image Description",
   },
   // Second testimonial data
@@ -43,8 +45,7 @@ const testimonials = [
       " \"Choosing Kiss D'Kiss was the best decision I made for my education. The team helped me prepare for the TOEFL exam and assisted with my application to Dallas College. Mr. Kissi's expertise and dedication ensured I got the best possible start in my studies in the U.S.\" ",
     author: "Mamadou B.",
     role: "Dallas College Student",
-    avatarSrc:
-      "https://i.postimg.cc/B8p3C0Hc/5.png",
+    avatarSrc: avatar5.src,
     avatarAlt: "Image Description",
   },
   // Third testimonial data
@@ -53,8 +54,7 @@ const testimonials = [
       " \"Kiss D'Kiss provided exceptional support throughout my journey to the University of Texas at Dallas. From securing my student visa to navigating the university registration process, their guidance was invaluable. Mr. Kissi's commitment to student success is truly commendable.\" ",
     author: "Fatou D.",
     role: "UTD Student",
-    avatarSrc:
-      "https://i.postimg.cc/xcj9cqmj/1.png",
+    avatarSrc: avatar1.src,
     avatarAlt: "Image Description",
   },
 ];

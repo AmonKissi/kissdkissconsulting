@@ -1,4 +1,9 @@
 ---
+import dallasCollegeLogo from "@images/partners/dallascollege.png";
+import untLogo from "@images/partners/unt.png";
+import utdLogo from "@images/partners/utd.png";
+import utaLogo from "@images/partners/uta.png";
+
 // Define props from Astro
 const { title, subTitle } = Astro.props;
 
@@ -19,25 +24,23 @@ interface Props {
     >
       {title}
     </h2>
-    {
-      subTitle && (
-        <p class="text-pretty leading-tight text-neutral-600 dark:text-neutral-400">
-          {subTitle}
-        </p>
-      )
-    }
+    {subTitle && (
+      <p class="text-pretty leading-tight text-neutral-600 dark:text-neutral-400">
+        {subTitle}
+      </p>
+    )}
   </div>
   <div
     class="flex flex-col items-center justify-center gap-y-2 sm:flex-row sm:gap-x-12 sm:gap-y-0 lg:gap-x-24"
   >
     <!-- Clients Group SVGs -->
     <!-- First -->
-    <img src="https://i.postimg.cc/Yj6SvJyR/dallascollege.png" alt="Logo" width="110px" height="auto">
+    <img src={dallasCollegeLogo.src} alt="Dallas College Logo" width="110px" height="auto">
     <!-- Second -->
-    <img src="https://i.postimg.cc/56pN38JF/unt.png" alt="Logo" width="180px" height="auto">
+    <img src={untLogo.src} alt="UNT Logo" width="180px" height="auto">
     <!-- Third -->
-    <img src="https://i.postimg.cc/9whFxpzy/utd.png" alt="Logo" width="130px" height="auto">
+    <img src={utdLogo.src} alt="UTD Logo" width="130px" height="auto">
     <!-- Fourth -->
-    <img src="https://i.postimg.cc/YGgCfV2p/uta.png" alt="Logo" width="110px" height="auto">
+    <img src={utaLogo.src} alt="UTA Logo" width="110px" height="auto">
   </div>
 </section>
