@@ -1,0 +1,32 @@
+---
+// Import the necessary components
+import MainLayout from "@/layouts/MainLayout.astro";
+import ContactSection from "@components/sections/misc/ContactSection.astro";
+import { SITE } from "@data/constants";
+
+const pageTitle: string = `Contact | ${SITE.title}`;
+---
+
+<!--Utilizing MainLayout for the outer layout of the page, and defining meta for SEO purposes-->
+<MainLayout
+  title={pageTitle}
+  structuredData={{
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": "https://kissdkiss.com/contact",
+    "url": "https:/kissdkiss.com/contact",
+    "name": "Contact Us | Kiss D'Kiss",
+    "description":
+      "Have questions about studying abroad? Get in touch, and let us answer all the questions you may have.",
+    "isPartOf": {
+      "@type": "WebSite",
+      "url": "https://kissdkiss.com",
+      "name": "Kiss D'Kiss",
+      "description":
+        "Empowering students from around the world to pursue their dreams of studying in the U.S.",
+    },
+    "inLanguage": "en-US"
+  }}
+>
+  <ContactSection />
+</MainLayout>

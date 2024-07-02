@@ -1,0 +1,44 @@
+{
+  "title": "Agreement Contract between Parents or Students and Kiss D'Kiss Consulting",
+  "subTitle": "Enrollment at Your Chosen University in the USA.",
+  "badge": "Best value",
+  "thirdOption": "Unsure about your choice?",
+  "btnText": "Contact Us",
+
+  "starterKit": {
+    "name": "First Part",
+    "description": "Première Partie",
+    "price": "2700",
+    "cents": ".00",
+    "billingFrequency": "USD / 1,600,000 FCFA",
+    "features": [
+      "REGISTRATION AND US IMMIGRATION FEES",
+      "REGISTRATION FOR TOEFL PREPARATION COURSE",
+      "TOEFL EXAM FEES",
+      "PAYMENT OF EMBASSY FEES",
+      "PAYMENT OF DS-160 FEES",
+      "BANK STATEMENT"
+    ],
+    "purchaseBtnTitle": "Get Started",
+    "purchaseLink": "https://buy.stripe.com/14k00c9feg2xcpidR4"
+  },
+
+  "professionalToolbox": {
+    "name": "Second Part",
+    "description": "Deuxième Partie",
+    "price": "12,000",
+    "cents": ".00",
+    "billingFrequency": "USD / 7,500,000 FCFA",
+    "features": [
+      "ACCOMMODATION",
+      "FOOD",
+      "TRANSPORT",
+      "TUITION for 3 MONTHS",
+      "DRIVER'S LICENSE",
+      "PHONE - MONTHLY SUBSCRIPTION",
+      "BANK ACCOUNT OPENING" 
+    ],
+    "purchaseBtnTitle": "Get Started",
+    "purchaseLink": "https://buy.stripe.com/4gw14gbnmdUpgFy28l"
+  }
+}

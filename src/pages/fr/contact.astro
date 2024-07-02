@@ -1,0 +1,30 @@
+---
+// Import the necessary components
+import MainLayout from "@/layouts/MainLayout.astro";
+import ContactSection from "@components/sections/fr/ContactSection_fr.astro";
+---
+
+<!--Utilizing MainLayout for the outer layout of the page, and defining meta for SEO purposes-->
+<MainLayout
+  title="Contact | Kiss D'Kiss"
+  lang="fr"
+  structuredData={{
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": "https://kissdkiss.com/fr/contact",
+    url: "https://kissdkiss.com/fr/contact",
+    name: "Nous Contacter | ScrewFast",
+    description:
+      "Empowering students from around the world to pursue their dreams of studying in the U.S.",
+    isPartOf: {
+      "@type": "WebSite",
+      url: "https://kissdkiss.com/fr/",
+      name: "ScrewFast",
+      description:
+        "Empowering students from around the world to pursue their dreams of studying in the U.S.",
+    },
+    inLanguage: "fr",
+  }}
+>
+  <ContactSection />
+</MainLayout>

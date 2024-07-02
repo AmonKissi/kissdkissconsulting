@@ -1,1 +1,1 @@
-testgit init
+KISS D KISS consulting (test)

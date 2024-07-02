@@ -1,0 +1,29 @@
+{
+  "subTitle": "Feel free to ask us anything about our services or any common questions you may have.",
+  "faqs": [
+    {
+      "question": "What are the requirements for studying in the U.S.?",
+      "answer": "To study in the U.S., you will need a valid passport, a student visa (F1), proof of acceptance from a U.S. institution, financial documents showing you can support yourself, and proof of English proficiency (usually TOEFL or IELTS scores)."
+    },
+    {
+      "question": "How do I apply for a student visa (F1)?",
+      "answer": "To apply for an F1 visa, you need to first be accepted by a SEVP-certified U.S. school, pay the SEVIS fee, complete the DS-160 form, schedule and attend a visa interview at the U.S. embassy or consulate, and provide required documentation such as your I-20 form, passport, financial proof, and academic transcripts."
+    },
+    {
+      "question": "What English proficiency tests are accepted, and what scores do I need?",
+      "answer": "Most U.S. universities accept TOEFL and IELTS scores. The required scores vary by institution, but typically, a minimum TOEFL score of 70-80 or an IELTS score of 6.0-6.5 is needed. Some universities may have higher requirements."
+    },
+    {
+      "question": "How can I find accommodation in the U.S.?",
+      "answer": "Universities often provide on-campus housing options. Additionally, you can explore off-campus housing through university housing offices, online platforms, and student forums. We at Kiss D'Kiss also assist students in finding suitable accommodation."
+    },
+    {
+      "question": "What financial aid or scholarships are available for international students?",
+      "answer": " Many U.S. universities offer scholarships, grants, and assistantships to international students based on academic merit, financial need, or specific talents. Additionally, external organizations and foundations also provide scholarships. It is important to research and apply for these opportunities early."
+    },
+    {
+      "question": "How can I work while studying in the U.S.?",
+      "answer": "F1 students can work on-campus for up to 20 hours per week during the academic term and full-time during holidays. After the first academic year, students may apply for Curricular Practical Training (CPT) or Optional Practical Training (OPT) to work off-campus in their field of study."
+    }
+  ]
+}
